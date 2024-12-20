@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Tcl when comparing a variable to 0 using the `==` operator.  The issue is that in the original code, when the variable 'a' is equal to 0 the expression `$a == 0` will be evaluated to false, leading to an unexpected return value.  The solution corrects the comparison to ensure accurate evaluation, addressing the issue.
